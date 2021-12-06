@@ -1,0 +1,28 @@
+.imagem-cabecalho {
+    width: 150px;
+    height: 75px;
+    position: relative;
+    padding: 15px;
+    object-fit: contain;
+    margin-left: 33px;
+    margin-top: 10px;
+}
+
+@media only screen and (max-device-width: 500px) {
+    .imagem-cabecalho {
+        display: none;
+    }
+}
+
+@media only screen and (min-device-width: 768px) {
+    .imagem-cabecalho {
+        display: none;
+    }
+}
+
+@media only screen and (min-device-width: 1440px) {
+    .imagem-cabecalho {
+        display: block;
+        margin-top: -85px;
+    }
+}

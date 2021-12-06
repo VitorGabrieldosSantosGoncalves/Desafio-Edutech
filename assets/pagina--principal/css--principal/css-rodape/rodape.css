@@ -1,0 +1,82 @@
+/* .rodape-principal {} */
+
+.imagem-rodape {
+    position: absolute;
+    width: 100%;
+    height: 225px;
+    filter: brightness(80%);
+}
+
+.titulo-rodape {
+    position: relative;
+    text-align: center;
+    padding-top: 15px;
+    font-family: var(--fonte);
+    font-size: 33px;
+}
+
+.titulo-rodape:hover {
+    font-size: 37px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.texto-rodape {
+    position: relative;
+    text-align: center;
+    font-family: var(--fonte);
+    font-size: 25px;
+}
+
+.texto-rodape:hover {
+    font-size: 27px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+
+/* @media only screen and (min-device-width: 425px) {
+    .imagem-rodape {
+        width: 363px;
+    }
+    .titulo-rodape {
+        padding-right: 33px;
+    }
+    .texto-rodape {
+        padding-right: 39px;
+    }
+}
+
+@media only screen and (min-device-width: 768px) {
+    .imagem-rodape {
+        width: 768px;
+    }
+    .titulo-rodape {
+        padding-right: 33px;
+    }
+    .texto-rodape {
+        padding-right: 39px;
+    }
+}
+
+@media only screen and (min-device-width: 1440px) {
+    .imagem-rodape {
+        width: 1440px;
+    }
+    .titulo-rodape {
+        padding-right: 33px;
+        margin-right: 340px;
+    }
+    .texto-rodape {
+        padding-right: 39px;
+        margin-right: 340px;
+    }
+} */
+
+
+/* 
+@media only screen and (min-device-width: 1441px) {
+    .imagem-rodape {
+
+    }
+} */

@@ -1,0 +1,30 @@
+.dropdown-ativo {
+    width: 79px;
+    position: relative;
+}
+
+.link-dropdown {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    position: relative;
+}
+
+.iten-dropdown {
+    background-color: wheat;
+    padding: 10px;
+    border: black solid 1px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.invisivel {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}

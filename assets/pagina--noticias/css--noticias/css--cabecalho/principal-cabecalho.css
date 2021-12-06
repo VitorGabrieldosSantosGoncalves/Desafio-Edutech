@@ -1,0 +1,37 @@
+.secao--principal-cabecalho {
+    align-items: center;
+    height: 433px;
+}
+
+.fundo--principal-cabecalho {
+    /* background-image: url(../../img--principal/fundos/fundo.png); */
+    width: 100%;
+    height: 455px;
+    border: black solid 1px;
+    margin-top: -16px;
+    position: absolute;
+    right: 1px;
+    filter: brightness(40%);
+}
+
+.titulo--principal-cabecalho {
+    font-family: var(--fonte);
+    font-size: 73px;
+    margin-left: 40%;
+    padding-top: 35px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #36CF73;
+    position: relative;
+}
+
+.texto--principal-cabecalho {
+    font-family: var(--fonte);
+    font-size: 33px;
+    margin-left: 31%;
+    margin-top: -25px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #36CF73;
+    position: relative;
+    text-align: center;
+    width: 38%;
+}

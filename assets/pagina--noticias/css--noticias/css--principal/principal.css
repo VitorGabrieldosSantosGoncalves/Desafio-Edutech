@@ -1,0 +1,361 @@
+.principal {
+    background-image: url(../../img--noticias/fundo/principal.png);
+    position: absolute;
+    margin-top: 427px;
+    border: black solid 1px;
+}
+
+
+/* 
+.span {
+    display: flex;
+} */
+
+.titulo-principal,
+.titulo-principal-2 {
+    font-family: var(--fonte);
+    font-size: 33px;
+    margin-left: 30px;
+    padding-top: 35px;
+    position: relative;
+}
+
+.titulo-principal-2 {
+    padding-top: 5px;
+}
+
+.texto-principal-1,
+.texto-principal-2,
+.texto-principal-3 {
+    font-family: var(--fonte);
+    font-size: 27px;
+    padding-left: 30px;
+    position: relative;
+    width: 70%;
+    padding-bottom: 25px;
+}
+
+.texto-principal-2 {
+    width: 80%;
+}
+
+.texto-principal-3 {
+    width: 80%;
+}
+
+.cor-verde {
+    color: green;
+}
+
+.cor-verde:hover {
+    font-style: italic;
+    text-decoration: underline;
+    transition: 1s;
+}
+
+.video-edutech {
+    text-align: center;
+}
+
+.descricao-video {
+    text-align: center;
+    color: black;
+    font-style: italic;
+    font-family: var(--fonte);
+}
+
+.descricao-video:hover {
+    font-size: 20px;
+    text-decoration: underline;
+    transition: 0.2s;
+}
+
+.video {
+    text-align: center;
+}
+
+
+/* @media only screen and (max-device-width: 500px) {
+    .principal {
+        width: 100vw;
+    }
+}
+
+@media only screen and (max-device-width: 424px) {
+    .principal {
+        margin-bottom: 0px;
+        width: 100vw;
+        margin-top: 13.5rem;
+    }
+    .video-edutech-1 {
+        width: 250px;
+        height: 200px;
+    }
+    .titulo-principal,
+    .titulo-principal-2 {
+        font-size: 23px;
+    }
+    .texto-principal-1,
+    .texto-principal-2,
+    .texto-principal-3 {
+        width: 80%;
+        font-size: 20px;
+    }
+    .descricao-video {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-device-width: 0px) {
+    .principal {
+        width: 320px;
+    }
+}
+
+@media only screen and (min-device-width: 425px) {
+    .principal {
+        margin-bottom: 0px;
+        width: 363px;
+        margin-top: 13.5rem;
+    }
+    .video-edutech-1 {
+        width: 250px;
+        height: 200px;
+    }
+    .titulo-principal,
+    .titulo-principal-2 {
+        font-size: 23px;
+    }
+    .texto-principal-1,
+    .texto-principal-2,
+    .texto-principal-3 {
+        width: 68%;
+        font-size: 20px;
+    }
+    .descricao-video {
+        font-size: 13px;
+        padding-right: 13px;
+    }
+}
+
+@media only screen and (min-device-width: 768px) {
+    .principal {
+        margin-bottom: 0px;
+        width: 768px;
+        margin-top: 13.5rem;
+    }
+    .video-edutech-1 {
+        width: 250px;
+        height: 200px;
+    }
+    .titulo-principal,
+    .titulo-principal-2 {
+        font-size: 23px;
+    }
+    .texto-principal-1,
+    .texto-principal-2,
+    .texto-principal-3 {
+        width: 78%;
+        font-size: 20px;
+    }
+    .descricao-video {
+        font-size: 13px;
+        padding-right: 13px;
+    }
+}
+
+@media only screen and (min-device-width: 1440px) {
+    .principal {
+        background-image: url(../../img--principal/fundos/principal.png);
+        border: black solid 1px;
+        margin-top: 17.5rem;
+    }
+    .span-1 {
+        display: flex;
+    }
+    .titulo-principal,
+    .titulo-principal-2 {
+        font-family: var(--fonte);
+        font-size: 33px;
+        margin-left: 30px;
+        padding-top: 35px;
+        position: relative;
+    }
+    .titulo-principal-2 {
+        padding-top: 5px;
+    }
+    .texto-principal-1,
+    .texto-principal-2,
+    .texto-principal-3 {
+        font-family: var(--fonte);
+        font-size: 27px;
+        padding-left: 30px;
+        position: relative;
+        width: 40%;
+        padding-bottom: 25px;
+    }
+    .texto-principal-2 {
+        width: 80%;
+    }
+    .texto-principal-3 {
+        width: 100%;
+    }
+    .cor-verde {
+        color: green;
+    }
+    .cor-verde:hover {
+        font-style: italic;
+        text-decoration: underline;
+        transition: 1s;
+    }
+    .video-edutech {
+        text-align: center;
+    }
+    .descricao-video {
+        text-align: center;
+        color: black;
+        font-style: italic;
+        font-family: var(--fonte);
+    }
+    .descricao-video:hover {
+        font-size: 18px;
+        text-decoration: underline;
+        transition: 0.2s;
+    }
+}
+
+@media only screen and (min-device-width: 1440px) {
+    .principal {
+        background-image: url(../../img--principal/fundos/principal.png);
+        border: black solid 1px;
+        margin-top: 17.5rem;
+        width: 1440px;
+        margin-top: 379.5px;
+    }
+    .span-1 {
+        display: flex;
+    }
+    .titulo-principal,
+    .titulo-principal-2 {
+        font-family: var(--fonte);
+        font-size: 33px;
+        margin-left: 30px;
+        padding-top: 35px;
+        position: relative;
+    }
+    .titulo-principal-2 {
+        padding-top: 5px;
+    }
+    .texto-principal-1,
+    .texto-principal-2,
+    .texto-principal-3 {
+        font-family: var(--fonte);
+        font-size: 27px;
+        padding-left: 30px;
+        position: relative;
+        width: 40%;
+        padding-bottom: 25px;
+    }
+    .texto-principal-2 {
+        width: 80%;
+    }
+    .texto-principal-3 {
+        width: 100%;
+    }
+    .cor-verde {
+        color: green;
+    }
+    .cor-verde:hover {
+        font-style: italic;
+        text-decoration: underline;
+        transition: 1s;
+    }
+    .video-edutech {
+        text-align: center;
+    }
+    .video-edutech-1 {
+        width: 500px;
+        height: 300px;
+        margin-right: 340px;
+    }
+    .descricao-video {
+        text-align: center;
+        color: black;
+        font-style: italic;
+        font-family: var(--fonte);
+        margin-right: 340px;
+    }
+    .descricao-video:hover {
+        font-size: 18px;
+        text-decoration: underline;
+        transition: 0.2s;
+    }
+}
+
+@media only screen and (min-device-width: 1441px) {
+    .principal {
+        background-image: url(../../img--principal/fundos/principal.png);
+        border: black solid 1px;
+        margin-top: 17.5rem;
+        width: 100%;
+        margin-top: 379.5px;
+    }
+    .span-1 {
+        display: flex;
+    }
+    .titulo-principal,
+    .titulo-principal-2 {
+        font-family: var(--fonte);
+        font-size: 33px;
+        margin-left: 30px;
+        padding-top: 35px;
+        position: relative;
+    }
+    .titulo-principal-2 {
+        padding-top: 5px;
+    }
+    .texto-principal-1,
+    .texto-principal-2,
+    .texto-principal-3 {
+        font-family: var(--fonte);
+        font-size: 27px;
+        padding-left: 30px;
+        position: relative;
+        width: 40%;
+        padding-bottom: 25px;
+    }
+    .texto-principal-2 {
+        width: 80%;
+    }
+    .texto-principal-3 {
+        width: 100%;
+    }
+    .cor-verde {
+        color: green;
+    }
+    .cor-verde:hover {
+        font-style: italic;
+        text-decoration: underline;
+        transition: 1s;
+    }
+    .video-edutech {
+        text-align: center;
+    }
+    .video-edutech-1 {
+        width: 500px;
+        height: 300px;
+        margin-right: 340px;
+    }
+    .descricao-video {
+        text-align: center;
+        color: black;
+        font-style: italic;
+        font-family: var(--fonte);
+        margin-right: 340px;
+    }
+    .descricao-video:hover {
+        font-size: 18px;
+        text-decoration: underline;
+        transition: 0.2s;
+    }
+} */
