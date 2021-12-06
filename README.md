@@ -1,1 +1,2 @@
 # Desafio-Edutech
+Olá sou Vitor Gabriel, aluno da professora Thaiane Machado.E este é o meu desafio Edutech, nesse projeto houve o uso de HTML, CSS e Java Script, que foram aprendidos na plataforma da Alura. Contudo esse site não foi adaptado para versões mobiles, pórem eu entendo a importância de adaptar os sites para esses tipos de aparelhos tecnológicos. Além disso gostaria de dar créditos para as fontes que eu peguei em outros sites, como o próprio do Paraná que possuia informações sobre o EduTech,além de imagens adquiridas em outros sites.
